@@ -18,14 +18,15 @@
 - Problem should be mentioned and disscussed via proper channels to determine if needs to be resolved or not. Product owner/project manager should decide in the end. 
 
 6. It is late in the evening. You are responsible for the GO/NO GO decision. The workflow is very strict and there are numerous tasks to be done:
-• Verifying bugs found in the very last stage of testing
-• One round of regression testing, etc.
-• Conclude the testing
-• Filling out the report,
-• Check everything is ready for release
-You just discovered that some part of the app doesn't feel right - UI/UX it's not catchy enough.
+- Verifying bugs found in the very last stage of testing
+- One round of regression testing, etc.
+- Conclude the testing
+- Filling out the report,
+- Check everything is ready for release
+
+- You just discovered that some part of the app doesn't feel right - UI/UX it's not catchy enough.
 What do you do? Why?
-You know if following the procedure the app won’t be released on time, but timing is everything on
+- You know if following the procedure the app won’t be released on time, but timing is everything on
 this release. What do you do? Why?
 
 - Priority and severity of problem need to be determined first. Sometimes it is hard to classify a problem. Documentation describing examples what is low/mid/high priority/severity would be beneficial.
