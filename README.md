@@ -1,8 +1,8 @@
 #Gamanza
 
 TestRail: https://andrejgamanza.testrail.io
-u: qatestgamanza1@gmail.com
-p: TestTest1."
+- u: qatestgamanza1@gmail.com
+- p: TestTest1."
 	
 1. Test Cases (click on test case to see test steps)
 https://andrejgamanza.testrail.io/index.php?/suites/view/1&group_by=cases:section_id&group_order=asc&display_deleted_cases=0
