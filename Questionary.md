@@ -18,11 +18,7 @@
 - Problem should be mentioned and disscussed via proper channels to determine if needs to be resolved or not. Product owner/project manager should decide in the end. 
 
 6. It is late in the evening. You are responsible for the GO/NO GO decision. The workflow is very strict and there are numerous tasks to be done:
-- Verifying bugs found in the very last stage of testing
-- One round of regression testing, etc.
-- Conclude the testing
-- Filling out the report,
-- Check everything is ready for release
+  Verifying bugs found in the very last stage of testing, One round of regression testing, etc. Conclude the testing, Filling out the report, Check everything is ready for release.
 
 - You just discovered that some part of the app doesn't feel right - UI/UX it's not catchy enough.
 What do you do? Why?
@@ -46,4 +42,26 @@ Priority
 - High: Bug should be fixed as soon as possible, before the release is made. 
 - Medium: Bug can be fixed in the normal course of development. 
 - Low: Bug can be fixed in the future or if there is nothing more important. 
-- Lowest: Bug may or may not be fixed."""""""
+- Lowest: Bug may or may not be fixed.
+
+7. Assume you are the QA lead for a new major product with a set project deadline. Briefly describe how you would go about the following:
+Implementing QA process into the project, Ensuring product successfully passes QA, Making sure the project deadline is met.
+
+- Figure out what are the product requirements. Good definition could/should prevent bugs instead finding/fixing them during testing.
+- Plan the tests. Create scope of tests, establish deadlines.
+- Create test cases (API, UX/UI, manual or automatic)
+- Execute tests (API, UX/UI, manual or automatic). Report found bugs. Update test cases
+- Execute tests again to ensure reported bugs were fixed.
+- Run tests after release. Perform smoke test to ensure build is stable.
+
+8. Assume that only one area of the application has been changed, how much time do you think should be spent testing each segment of the app (new functionality, core functionality, all functionality, etc.)? Give an estimate in % for each segment and explain your decision.
+
+- It depends if changed area of app effects other parts of the app. Developer could give more info regarding that.
+- New functionality: 80 % - Most important. Needs to be thoroughly QA-ed.
+- Core functionality: 15 % - Check if new functionality effects core functionalities.
+- All functionality: 5 % - Smoke test for other functionalities.
+
+9. Are you familiar with any test automation tool? Have you ever used automated testing in apps? How would you introduce automated testing to our apps?
+
+- I made Postman collection with test scenarios for staging, production environment. Collection are run via Postman or in Postman CLI called Newman. My final implementation ran collection every morning via Github actions generating HTML report accessable via Github page.
+Similar could be done for other apps. Scenarios for e.g. roulette could be made. Bet on one number, on two numbers and color green... Collection would include those multiple scenarios which would then be ran."
