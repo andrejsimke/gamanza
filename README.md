@@ -20,7 +20,7 @@ Found bug when trying to submit a form Write us. Plan was to use valid email, te
 - bug2 ([LINK](https://andrejgamanza.testrail.io/index.php?/tests/view/16&group_by=cases:section_id&group_order=asc&group_id=1))
 Found bug trying to click on all links, logos on web page.
 
-3. Testing report (LINK])
+3. Testing report ([LINK](https://andrejgamanza.testrail.io/index.php?/reports/view/5))
 
 <br/><br/><br/>
 #Common QA dilemmas – questionary
