@@ -28,7 +28,10 @@ Found bug trying to click on all links, logos on web page.
 1. What bug reporting tools have you used in the past and what do you recommend the most and why?
 - Testrail, Zephyr for Jira. Testrail has better interface, options. Easy to learn, use.
 2. Are you familiar with test scenarios? Have you ever used any tool for that? How would you introduce writing test scenarios for our apps?
-- ...
+- Again, Testrail. Within Testrail you can create test plan, in test plan you can create test run (in this case test scenario) and decide which test cases to assign to this test run. For example:
+- Test plan: Regression testing for app XYZ
+- Test scenario: Register to app, Login to app, place bet, add money, chat...
+- Test cases: For all test scenarios
 3. How important is writing test scenarios for you? Why?
 - Very important. With detailed, well written test scenarios you cover (all) end to end functionality of a software application. This means less errors for the final product which is a desired goal.
 4. Assume you find a problem while testing the application, what would be your recommended approach to get that problem resolved?
@@ -66,3 +69,24 @@ Priority:
 - Medium: Bug can be fixed in the normal course of development
 - Low: Bug can be fixed in the future or if there is nothing more important
 - Lowest: Bug may or may not be fixed.
+
+7. Assume you are the QA lead for a new major product with a set project deadline. Briefly describe how you would go about the following:<br>
+• Implementing QA process into the project<br>
+• Ensuring product successfully passes QA<br>
+• Making sure the project deadline is met<br>
+- Figure out what are the product requirements. Good definition could/should prevent bugs instead finding/fixing them during testing.
+- Plan the tests. Create scope of tests, establish deadlines.
+- Create test cases (API, UX/UI, manual and/or automatic)
+- Execute tests (API, UX/UI, manual and/or automatic). Report found bugs. Update test cases.
+- Execute tests again to ensure reported bugs were fixed.
+- Run tests after release. Perform smoke test to ensure build is stable.
+
+8. Assume that only one area of the application has been changed, how much time do you think should be spent testing each segment of the app (new functionality, core functionality, all functionality, etc.)? Give an estimate in % for each segment and explain your decision.
+- It depends if changed area of app effects other parts of the app. Developer could give more info regarding that.
+- New functionality: 80 % - Most important. Needs to be thoroughly QA-ed.
+- Core functionality: 15 % - Check if new functionality effects core functionalities.
+- All functionality: 5 % - Smoke test for other functionalities."
+
+9. Are you familiar with any test automation tool? Have you ever used automated testing in apps? How would you introduce automated testing to our apps?
+- Postman with CLI Newman and newman-reporter-htmlextra. I made Postman collection with test scenarios for staging, production environment. Collection ran via Postman or in Postman CLI called Newman. My final implementation ran collection every morning via Github actions generating HTML report accessable via Github page.
+- Similar could be done for other apps (if apps use API calls). Scenarios for e.g. roulette could be made (bet on one number, on two numbers and color green... Postman collection would include those multiple scenarios which would then be ran.
