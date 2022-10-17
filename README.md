@@ -15,10 +15,10 @@ I created account (username and password are listed below) and provided links to
 - It has three test cases ([LINK](https://andrejgamanza.testrail.io/index.php?/runs/view/8&group_by=cases:section_id&group_order=asc))
 - bugs for 2 out of 3 tests were found
 - for details you can click on test case to see which step passed/failed, and description/pictures attached.
-- bug1 ([LINK](https://andrejgamanza.testrail.io/index.php?/tests/view/15&group_by=cases:section_id&group_order=asc&group_id=1))
-Found bug when trying to submit a form Write us. Plan was to use valid email, temp email,  
-- bug2 ([LINK](https://andrejgamanza.testrail.io/index.php?/tests/view/16&group_by=cases:section_id&group_order=asc&group_id=1))
-Found bug trying to click on all links, logos on web page.
+- bug1 ([LINK](https://andrejgamanza.testrail.io/index.php?/tests/view/15&group_by=cases:section_id&group_order=asc&group_id=1)) <br>
+Trying to submit a form Write us. Plan was to use valid email, empty fields.
+- bug2 ([LINK](https://andrejgamanza.testrail.io/index.php?/tests/view/16&group_by=cases:section_id&group_order=asc&group_id=1)) <br>
+Not all "Our clients" have open in new tab URL set.
 
 3. Testing report ([LINK](https://andrejgamanza.testrail.io/index.php?/reports/view/5))
 
