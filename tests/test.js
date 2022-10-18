@@ -6,11 +6,18 @@ async function test_case(){
 
     await driver.get("https://gamanza.com")
 
+    let a = driver.getTitle();
+    console.log("+++++++++++++++++++++++++++++", a)
+    setInterval(function(){
+        driver.quit()
+    }, 2000)
+
+    
     //await driver.findElement(By.name("q")).sendKeys("Hello world!!!", Key.RETURN)
 
     //await driver.findElement(By.name("your-message")).sendKeys("Hello world!!!")
     //await driver.findElement(By.name("your-email")).sendKeys("test@test.com", Key.RETURN)
-    await driver.findElement(By.id("ak_js_1"))
+    //await driver.findElement(By.id("ak_js_1"))
     
     
     //await driver.findElement(By.name("your-email")).sendKeys("test@test.com")
@@ -28,7 +35,9 @@ async function test_case(){
         driver.quit()
     }, 15000)
 */
-
+    //driver.manage().window().minimize()
+    //driver.manage().window().maximize()
+    
 }
 
 test_case()
