@@ -1,10 +1,8 @@
 #Gamanza
 
 Plan was to create test cases, test plan and report in software called TestRail.
-I created account (username and password are listed below) and provided links to follow.
-- Login to Testrail: https://andrejgamanza.testrail.io
-- user name: qatestgamanza1@gmail.com
-- password: TestTest1.
+
+1. Info provided via email.
 	
 2. Test Cases ([LINK](https://andrejgamanza.testrail.io/index.php?/suites/view/1&group_by=cases:section_id&group_order=asc&display_deleted_cases=0))
 - there are three test cases,
