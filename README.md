@@ -1,5 +1,5 @@
 #Gamanza
 
-Run test:
-1. npm i
-2. npm run g
+To run tests:
+1. Install repository dependencies "npm i"
+2. "npm test"

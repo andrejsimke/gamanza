@@ -4,8 +4,8 @@
   "description": "Plan was to create test cases, test plan and report in software called TestRail. I created account (username and password are listed below) and provided links to follow. - Login to Testrail: https://andrejgamanza.testrail.io - user name: qatestgamanza1@gmail.com - password: TestTest1.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "g": "node ./tests/test.js"
+    "test": "mocha --no-timelimits",
+    "g": "node ./test/test.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/andrejsimke/gamanza#readme",
   "dependencies": {
+    "chai": "^4.3.6",
     "chrome": "^0.1.0",
     "driver": "^1.0.0",
+    "mocha": "^10.1.0",
     "selenium-webdriver": "^4.5.0"
   },
   "devDependencies": {
